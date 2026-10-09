@@ -1,0 +1,17 @@
+name: rasslive
+description: RASSLIVE V6 GHADI EDITION
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  zego_uikit_prebuilt_live_streaming: ^3.14.0
+  permission_handler: ^11.3.0
+
+flutter:
+  uses-material-design: true
